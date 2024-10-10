@@ -14,6 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   padding: 8px;
   display: flex;
+  /* Another Solution */
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -52,7 +54,6 @@ ul {
   margin: 0;
   padding: 0;
   gap: 16px;
-  justify-content: flex-start;
 }
 
 /* New containers */
@@ -60,13 +61,12 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
-  justify-content: flex-start;
-  flex: 1 1 auto;
+  /* My first solution */
+  /* flex: 1 1 auto; */
 }
 
 .two {
   display: flex;
   align-items: center;
   gap: 16px;
-  justify-content: flex-end;
 }
